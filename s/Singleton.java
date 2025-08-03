@@ -4,7 +4,7 @@ public class Singleton {
     // 딱 하나뿐인 인스턴스를 저장할 변수를 만듭니다.
     // 'static'은 모든 Singleton 객체가 공유하는 변수라는 뜻이고,
     // 'private'은 외부에서 이 변수에 직접 접근하지 못하게 막는다는 뜻
-    // 2
+    // 3
     private static Singleton instance; // 유일한 인스턴스를 저장할 정적 변수
 
     // 외부에서 'new Singleton()' 이렇게 마음대로 객체를 만들지 못하게 막음
@@ -26,6 +26,7 @@ public class Singleton {
     public void showMessage() {
         System.out.println("안녕하세요, 저는 싱글톤 인스턴스입니다.");
     }
+
 
     // main 메서드는 Singleton 클래스 내부에 정의되어 있습
     // 같은 클래스 내부에서는 private 멤버(생성자 포함)에 접근할 수 있습
