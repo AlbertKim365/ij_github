@@ -6,7 +6,7 @@ public class Begin {
         // 외부에서 'new Singleton()' 이렇게 마음대로 객체를 만들지 못하게 막음
         // private 붙여 생성자를 아무나 외부에서 호출(new 키워드로 인스턴스 생성) 금지
         // Singleton s0 = new Singleton(); // 컴파일 에러: private 생성자
-        // 3
+        // 4
         Singleton s1 = Singleton.getInstance();
         Singleton s2 = Singleton.getInstance();
         //System.out.println("s0과 s1는 같은 인스턴스인가? " + (s0 == s1));
