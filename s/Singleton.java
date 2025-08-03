@@ -26,7 +26,6 @@ public class Singleton {
         System.out.println("안녕하세요, 저는 싱글톤 인스턴스입니다.");
     }
 
-
     // main 메서드는 Singleton 클래스 내부에 정의되어 있습
     // 같은 클래스 내부에서는 private 멤버(생성자 포함)에 접근할 수 있습
     // private 생성자라 하더라도 같은 클래스 내부에서는 접근이 가능하기 때문입
