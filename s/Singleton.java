@@ -4,7 +4,7 @@ public class Singleton {
     // 딱 하나뿐인 인스턴스를 저장할 변수를 만듭니다.
     // 'static'은 모든 Singleton 객체가 공유하는 변수라는 뜻이고,
     // 'private'은 외부에서 이 변수에 직접 접근하지 못하게 막는다는 뜻
-    // 5
+    // 6
     private static Singleton instance; // 유일한 인스턴스를 저장할 정적 변수
 
     // 외부에서 'new Singleton()' 이렇게 마음대로 객체를 만들지 못하게 막음
