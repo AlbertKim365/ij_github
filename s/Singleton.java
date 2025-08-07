@@ -37,5 +37,5 @@ public class Singleton {
 //        Singleton s1 = Singleton.getInstance();
 //        //System.out.println("s0과 s1는 같은 인스턴스인가? " + (s0 == s1));
 //    }
-    // R 9
+    // 로컬 메인 브런치, 체크인
 }
